@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme {
+  --breakpoint-2xs: 384px;
+  --breakpoint-xs: 512px;
+}
+
+@layer base {
+  :root {
+    --ui-color-primary-50: oklch(97.1% 0.013 17.38);
+    --ui-color-primary-100: oklch(93.6% 0.032 17.717);
+    --ui-color-primary-200: oklch(88.5% 0.062 18.334);
+    --ui-color-primary-300: oklch(88.5% 0.062 18.334);
+    --ui-color-primary-400: oklch(70.4% 0.191 22.216);
+    --ui-color-primary-500: oklch(63.7% 0.237 25.331);
+    --ui-color-primary-600: oklch(63.7% 0.237 25.331);
+    --ui-color-primary-700: oklch(57.7% 0.245 27.325);
+    --ui-color-primary-800: oklch(50.5% 0.213 27.518);
+    --ui-color-primary-900: oklch(44.4% 0.177 26.899);
+    --ui-color-primary-950: oklch(25.8% 0.092 26.042);
+  }
+}
